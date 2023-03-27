@@ -5,6 +5,31 @@ details, see the commit logs at <https://github.com/amueller/word_cloud>
 
 <!--next-version-placeholder-->
 
+## v1.9.0 (2023-03-27)
+### Feature
+* Add commitzen-branch to check commit message syntax ([`9b523b9`](https://github.com/Yuhao-C/word_cloud/commit/9b523b9b0800ca40f0d87dcf77146c6a000eb14c))
+* Add commitzen to check commit message syntax ([`2124df6`](https://github.com/Yuhao-C/word_cloud/commit/2124df660890f3ceeae006c720022416ed292ee4))
+* Add commitzen to check commit message syntax ([`d4aa887`](https://github.com/Yuhao-C/word_cloud/commit/d4aa887f77c399f457b836cd00fcfca585f826d1))
+*  add pre-commit yaml and actions ([`51f6afa`](https://github.com/Yuhao-C/word_cloud/commit/51f6afa0e7e53f1d600444fe8a73de75df0df6a1))
+
+### Fix
+* Add pip install to pytest and add to contributing.md ([`5f5985b`](https://github.com/Yuhao-C/word_cloud/commit/5f5985ba70afcc7b01806fede921480d013d1ae8))
+* Add pre-commit to requirements-dev ([`ce5a420`](https://github.com/Yuhao-C/word_cloud/commit/ce5a4207083469f65d1d08756bc5235bb3b31863))
+* Remove commitizen ([`423cba0`](https://github.com/Yuhao-C/word_cloud/commit/423cba07d4ef764a52749ac36dc59170c73b4a37))
+
+### Documentation
+* Update contributing guide ([`408b767`](https://github.com/Yuhao-C/word_cloud/commit/408b76752c6839f5ab2ef25cf3698c1ef5be0c7c))
+
+### Chore
+* Update pre-commit hooks version ([`4446640`](https://github.com/Yuhao-C/word_cloud/commit/44466404245925d1b7c2612d457e8d1840eda0ad))
+* Install deps before pre-commit test ([`64a793d`](https://github.com/Yuhao-C/word_cloud/commit/64a793d0c877d27eb8210c2f8a6722b4bd73dadd))
+* Exclude files from format fix ([`bcc3aaa`](https://github.com/Yuhao-C/word_cloud/commit/bcc3aaa5808694c0af9d33e2699fe75be61b80e7))
+* Add commitizen to check commit msg ([`7ab490b`](https://github.com/Yuhao-C/word_cloud/commit/7ab490bdc00a3f2f78f71e0546a4cbb645e8b3d4))
+* Exclude venv in flake8 check ([`628c7b4`](https://github.com/Yuhao-C/word_cloud/commit/628c7b4cb59fd86cc99273c8ef89ffecc8d9b67c))
+
+### Style
+* Fix EOF and trailing space ([`0da6930`](https://github.com/Yuhao-C/word_cloud/commit/0da69300770f0e4cd07cca8643ffc1fefd1cfae2))
+
 ## v1.8.6 (2023-03-21)
 ### Ci
 * Fix semantic release ([`170c336`](https://github.com/Yuhao-C/word_cloud/commit/170c336380064d71b68605c5f1ad4cfbd1ae182e))
