@@ -5,6 +5,10 @@ details, see the commit logs at <https://github.com/amueller/word_cloud>
 
 <!--next-version-placeholder-->
 
+## v1.9.1 (2023-03-28)
+### Ci
+* Replace test action with pre-commit ([`b1c2cc1`](https://github.com/Yuhao-C/word_cloud/commit/b1c2cc1000d4b1ac913709b88dce6f15ecbd3a41))
+
 ## v1.9.0 (2023-03-27)
 ### Feature
 * Add commitzen-branch to check commit message syntax ([`9b523b9`](https://github.com/Yuhao-C/word_cloud/commit/9b523b9b0800ca40f0d87dcf77146c6a000eb14c))
