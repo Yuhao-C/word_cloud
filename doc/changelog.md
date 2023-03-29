@@ -5,6 +5,10 @@ details, see the commit logs at <https://github.com/amueller/word_cloud>
 
 <!--next-version-placeholder-->
 
+## v1.10.0 (2023-03-29)
+### Feature
+* Evalution test111 ([`c5f802e`](https://github.com/Yuhao-C/word_cloud/commit/c5f802eb9a8576fdac062af4f30d812041b0634f))
+
 ## v1.9.1 (2023-03-28)
 ### Ci
 * Replace test action with pre-commit ([`b1c2cc1`](https://github.com/Yuhao-C/word_cloud/commit/b1c2cc1000d4b1ac913709b88dce6f15ecbd3a41))
