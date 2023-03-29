@@ -5,6 +5,10 @@ details, see the commit logs at <https://github.com/amueller/word_cloud>
 
 <!--next-version-placeholder-->
 
+## v1.11.0 (2023-03-29)
+### Feature
+* Evalution test 222 ([`2dfbdea`](https://github.com/Yuhao-C/word_cloud/commit/2dfbdea6df57b38ddad428c75ac7b397903a521b))
+
 ## v1.10.0 (2023-03-29)
 ### Feature
 * Evalution test111 ([`c5f802e`](https://github.com/Yuhao-C/word_cloud/commit/c5f802eb9a8576fdac062af4f30d812041b0634f))
