@@ -1,0 +1,42 @@
+default_install_hook_types:
+  - pre-commit
+  - commit-msg
+  - pre-push
+default_stages:
+  - commit
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude: |
+          (?x)^(
+            examples/.*\.txt
+          )$
+      - id: trailing-whitespace
+        exclude: |
+          (?x)^(
+            examples/.*\.txt|
+            wordcloud/query_integral_image\.c
+          )$
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.42.1
+    hooks:
+      - id: commitizen
+      - id: commitizen-branch
+        stages: [push]
+  - repo: local
+    hooks:
+      - id: pytest-check
+        name: pytest-check
+        entry: bash -c 'pip install -U -r requirements.txt -r requirements-dev.txt && pip install -e . && pytest'
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: flake
+        name: flake
+        entry: flake8
+        language: system
+        pass_filenames: false
+        always_run: true
