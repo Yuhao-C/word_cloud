@@ -8,11 +8,11 @@ In addition to the general procedure for creating a pull request, please follow 
 
 ### Use a correct version of Python
 
-Python 3.7.x should be fine for development.
+Python 3.8.x should be fine for development.
 
 ```
 python --version
-> Python 3.7.6
+> Python 3.8.6
 ```
 
 ### Install all dependencies
