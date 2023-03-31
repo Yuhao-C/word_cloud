@@ -40,3 +40,9 @@ Otherwise, you will have to fix them before committing.
 
 When writing the commit message, follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) specifications.
 Commit messages that do not conform to the specifications will be rejected.
+
+## After submitting the pull requset
+
+After you have submitted the pull requset, CI tasks will fire automatically to check the sytles, lint your code, and run tests on your code (this is to ensure that you do not skip the client side pre-commit tests). In case of any errors, you will be block from merging your PR until the test passes.
+
+After you have passed all CI tests and your PR is proved, you can safely merge your PR. Another CI task will fire automatically to update the changelog, bump the version based on information inferred from your commit message. Then it will release it to the PyPI registry.
